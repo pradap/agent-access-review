@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-access-review"
+version = "0.1.0"
+description = "Explain MCP configuration changes and apply team review rules."
+requires-python = ">=3.10"
+license = "MIT"
+readme = "README.md"
+dependencies = []
+
+[project.scripts]
+agent-access-review = "agent_access_review.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["agent_access_review*"]

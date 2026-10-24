@@ -1,0 +1,6 @@
+{
+  "name": "agent-access-review-scanner",
+  "private": true,
+  "description": "Pinned optional scanner for Agent Access Review",
+  "dependencies": {"@cruxet/mcp-audit": "0.2.0"}
+}

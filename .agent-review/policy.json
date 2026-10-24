@@ -1,0 +1,12 @@
+{
+  "rules": {
+    "server_added": true,
+    "scope_expanded": true,
+    "scope_changed": true,
+    "package_unpinned": true,
+    "configuration_changed": true,
+    "scope_narrowed": false,
+    "server_removed": false
+  },
+  "scanner_fail_on": "high"
+}
